@@ -1,0 +1,14 @@
+{
+  "name": "dojo",
+  "_cacheHeaders": {
+    "ETag": "\"8e1071-576f216f6f5c0\"",
+    "Last-Modified": "Fri, 28 Sep 2018 17:50:23 GMT",
+    "Content-Length": "9310321",
+    "Content-Type": "application/x-gzip"
+  },
+  "_release": "e-tag:8e1071-57",
+  "_source": "http://download.dojotoolkit.org/release-1.14.2/dojo-release-1.14.2.tar.gz",
+  "_target": "*",
+  "_originalSource": "http://download.dojotoolkit.org/release-1.14.2/dojo-release-1.14.2.tar.gz",
+  "_direct": true
+}
