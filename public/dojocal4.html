@@ -19,19 +19,22 @@
     </script>
 
 
-    <script src="js/demo/dojocal4.js"></script>
+    <script src="js/dojocal/dojocal4.js"></script>
  
 
 </head>
 <body class="claro">
     <form data-dojo-type="dijit/form/Form" data-dojo-attach-point="form" class="demoForm">
+        <p>Add a Number of Days (1 to 180) to any 'From' date to get the 'To' date.</br> 
+        </p>
+
         <label for="fromDate">From:</label>
         <input id="fromDate" />
         <!--  input data-dojo-id="myFromDate" type="text" name="fromDate" data-dojo-type="dijit/form/DateTextBox" required="true"
         onChange="myToDate.constraints.min = arguments[0];" / -->
 
         <!-- random number of days -->
-        <label for="addedDays">Days:</label>
+        <label for="addedDays">Number of Days:</label>
         <input id="addedDays" />
         <!-- input data-dojo-id="myDaysNumber" type="text" name="addedDays" data-dojo-type="dijit/form/NumberTextBox" required="true" data-dojo-attach-point="addedDays"
         data-dojo-props="constraints:{min:1,max:180,places:0},
